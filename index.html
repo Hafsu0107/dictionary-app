@@ -10,6 +10,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Dictionary web app</title>
   </head>
@@ -21,20 +22,48 @@
         <span>O</span>
         <img src="assets/images/icon-moon.svg" />
       </nav>
-      <div class="search">
-        <input type="text" placeholder="keyboard" id="inp-wrd" />
-        <button class="search-btn">
-          <img src="assets/images/icon-search.svg" />
-        </button>
+      <div class="search-box">
+        <input type="text" placeholder="keyboard" id="inpt-word" />
+        <img src="assets/images/icon-search.svg" />
       </div>
       <div class="result">
-        <h1><strong>Keyboard</strong></h1>
-        <img src="assets/images/icon-play.svg" />
-        <p style="color: purple">/"ki:bc:d/</p>
-        <p><strong>noun</strong></p><hr>
+        <div class="word">
+          <h2>Keyboard</h2>
+          <img src="assets/images/icon-play.svg" class="icon-play" />
+        </div>
+        <div class="details">
+          <p class="Meaning">/"k:bc:d/</p>
 
+          <div class="word-meaning">
+            <h3 class="noun">noun</h3>
+            <p style="color: #575a7b">Meaning</p>
+            <li>A set 0f keys to operate typewriter, computer etc.</li>
+            <li>
+              A computer of many instrument including the piano,organ and
+              hrapsichord consisting of usually black and white keys that cause
+              different tones to be produced when struck.
+            </li>
+            <li>
+              A device with keys of musical keyboard, used tu control electronic
+              sound -producing devices which may be built into or seprate from
+              the keyboard device .
+            </li>
+          </div>
 
+          <div class="synonyms">
+            <p style="color: #575a7b">Synonyms</p>
+            <p style="color: purple"><strong>electronic keyboard</strong></p>
+          </div>
+          <h3>verb</h3>
+          <hr />
+          <p class="verb-meaning"></p>
+          <p style="color: #575a7b">Meaning</p>
+          <li>To type on a Keyboard</li>
+          <p style="color: #575a7b">
+            "Keyboarding is the part of this job i hate the most."
+          </p>
+        </div>
       </div>
-    
+    </div>
   </body>
 </html>
