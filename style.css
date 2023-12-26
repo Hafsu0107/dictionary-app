@@ -19,12 +19,25 @@ body {
 }
 nav {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
+  margin-left: 70%;
+  margin-top: -9%;
 }
 .search-box {
-  width: 100;
+  margin-top: 35px;
+  width: 330px;
   justify-content: space-between;
+  border: 1.5px solid #aaacb5;
+  padding: 0;
+  border-radius: 10px;
 }
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 300px;
+}
+
 .result h2 {
   font-size: 30px;
 }
@@ -40,6 +53,7 @@ nav {
 .noun {
   margin-top: -20px;
   border-bottom: 1px solid #48484b;
+  font-family: "Oleo Script" sans-serif;
 }
 .word-meaning {
   margin-top: 30px;
