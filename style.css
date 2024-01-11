@@ -72,6 +72,9 @@ input {
   outline: none;
   width: 300px;
 }
+.word-meaning .noun {
+  font-family: "Playfair Display", serif;
+}
 .word-meaning h3 {
   font-family: "Playfair Display", serif;
 }
